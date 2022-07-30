@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden ;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li{
+    list-style-type: none;
+    padding: 8px 15px 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo span{
+    font-size: 1.8rem;
+}
+.logo h2{
+    font-weight: 800;
+    color: #fff000;
+    font-size: 1.8rem;
+}
+
+.btn{
+    border: none;
+    height: 6vh;
+    width: 15vh;
+    background-color: #fff000;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+.butt img{
+    width: 30px;
+
+}
+.butt{
+    margin: 0 10vh 0px 10vh;
+}
+.big-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.big-text p{
+    width: 65%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.big-text h1{
+    font-size: 3rem;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#button{
+    width: 20vh;
+    margin-top: 3vh;
+   
+    
+}
+
+.small-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.small-text h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.buttons{
+    margin-top: 10vh;
+    display: flex;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inherit;
+        line-height: 7vh;
+    width: 23vh;
+    /* background-color: #fff000; */
+    background-color: rgb(255, 240, 0);
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inherit;
+        line-height: 7vh;
+    width: 23vh;
+    /* background-color: #fff000; */
+    background-color: rgb(255, 240, 0);
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.btn3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inherit;
+        line-height: 7vh;
+    width: 23vh;
+    /* background-color: #fff000; */
+    background-color: rgb(255, 240, 0);
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.btn4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inherit;
+        line-height: 7vh;
+    width: 23vh;
+    /* background-color: #fff000; */
+    background-color: rgb(255, 240, 0);
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+.head{
+    text-align: center;
+    margin-top: 30vh;
+}
+.head h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+/* .card{
+    height: 300px;
+    width: 200px;
+    /* background-color: black; */
+  
+
+ 
+#card-1{
+    background-image: url(/images/taneli-lahtinen-FzthdgL6vBI-unsplash.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.5 ease-in-out;
+    
+}
+#card-1:hover{
+    opacity: 0.5;
+    background-color: black 0.5;
+    transition: 0.5  ease-in-out;
+}
+#card-2:hover{
+    opacity: 0.5;
+    background-color: black 0.5;
+    transition: 0.5  ease-in-out;
+}
+#card-3:hover{
+    opacity: 0.5;
+    background-color: black 0.5;
+    transition: 0.5  ease-in-out;
+}
+#card-2{
+    background-image: url(/images/alec-favale-Bi_5VsaOLnI-unsplash.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    cursor: pointer;
+
+}
+#card-3{
+    background-image: url(/images/ashirani-murata-rQgqf6ynkP8-unsplash.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    cursor: pointer;
+
+}
+
+.card-holder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vh;
+}
+.text{
+    text-align: center;
+}
+.text h2{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+.heading h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20vh;
+}
+
+.heading p{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    text-align: center;
+    margin-top: 30vh;
+}
+.header h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.circle-1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: black;
+    background-image: url(/images/ian-dooley-d1UPkiFd04A-unsplash.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.circle-2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: black;
+    background-image: url(/images/mohammad-faruque-TwuPHbcQ57w-unsplash.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.circle-3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: black;
+    background-image: url(/images/yuvraj-singh-n0__vDfdTHg-unsplash.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.cirlces{
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.circle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle1 p{
+    width: 50%;
+    text-align: center;
+}
+.circle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.circle2 p{
+    width: 50%;
+    text-align: center;
+}
+.circle3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle3 p{
+    width: 50%;
+    text-align: center;
+}
+
+.illus{
+    text-align: center;
+}
+
+
+.head2{
+    text-align: center;
+    margin-top: 30vh;
+}
+.head2 h2{
+    font-size: 3rem;
+}
+
+.questions{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quest{
+    line-height: 10vh;
+    width: 50%;
+    text-align: center;
+
+   
+}
+
+.quest img{
+    width: 20px;
+    cursor: pointer;
+}
+.quest h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.quest-1{
+    border-top: 2px solid black;
+}
+.quest-2{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.quest-3{
+    
+    border-bottom: 2px solid black;
+}
+.quest-4{
+   
+    border-bottom: 2px solid black;
+}
+
+
+.head3{
+    text-align: center;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head3 h2{
+    font-size: 3rem;
+
+}
+
+footer{
+    height: 20vh;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
